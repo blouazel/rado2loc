@@ -16,7 +16,8 @@
     "webpack-dev-server": "^4.7.2"
   },
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "webpack --config webpack.config.js",
     "test": "jest"
+
   }
 }
