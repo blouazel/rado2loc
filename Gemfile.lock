@@ -229,6 +229,7 @@ DEPENDENCIES
   dotenv-rails
   font-awesome-sass
   listen (~> 3.2)
+  nokogiri (~> 1.12, >= 1.12.5)
   pg (>= 0.18, < 2.0)
   pry-byebug
   pry-rails
