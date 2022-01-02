@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: rado2loc_production
-  username: rado2loc
-  password: <%= ENV['RADO2LOC_DATABASE_PASSWORD'] %>
+  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
